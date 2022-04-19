@@ -1,0 +1,220 @@
+{
+    "products" : [
+    {
+      "id" : 0,
+      "img" : "./img/products/f1.jpg",
+      "name" : "Nice Vintage Shirt",
+      "price": 81,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.1
+    },
+    {
+      "id" : 1,
+      "img" : "./img/products/f2.jpg",
+      "name" : "Nice Adidas Vintage",
+      "price": 55,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.02
+    },
+    {
+      "id" : 2,
+      "img" : "./img/products/f3.jpg",
+      "name" : "Cartoon Astronaut T-shirt",
+      "price": 78,
+      "star" : 4,
+      "quantity" : 1,
+      "shipping" : 0.03
+    },
+    {
+      "id" : 3,
+      "img" : "./img/products/f4.jpg",
+      "name" : "White Flowered Vintage",
+      "price": 45,
+      "star" : 3,
+      "quantity" : 1,
+      "shipping" : 0.02
+    },
+    {
+      "id" : 4,
+      "img" : "./img/products/f5.jpg",
+      "name" : "Black Flowered Vintage",
+      "price": 82,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.03
+    },
+    {
+      "id" : 5,
+      "img" : "./img/products/f6.jpg",
+      "name" : "Brown and Grey Sweater",
+      "price": 100,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.2
+    },
+    {
+      "id" : 6,
+      "img" : "./img/products/f7.jpg",
+      "name" : "White Adidas Short",
+      "price": 30,
+      "star" : 2,
+      "quantity" : 1,
+      "shipping" : 0
+    },
+    {
+      "id" : 7,
+      "img" : "./img/products/f8.jpg",
+      "name" : "Nice Lady Vintage",
+      "price": 40,
+      "star" : 3,
+      "quantity" : 1,
+      "shipping" : 0.01
+    },
+    {
+      "id" : 8,
+      "img" : "./img/products/n1.jpg",
+      "name" : "White Sweater top",
+      "price": 105,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.2
+    },
+    {
+      "id" : 9,
+      "img" : "./img/products/n2.jpg",
+      "name" : "Grey Sweater Top",
+      "price": 70,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.03
+    },
+    {
+      "id" : 10,
+      "img" : "./img/products/n3.jpg",
+      "name" : "Milky Sweater Top",
+      "price": 120,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.2
+    },
+    {
+      "id" : 11,
+      "img" : "./img/products/n4.jpg",
+      "name" : "Brown Vintage Top",
+      "price": 110,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.2
+    },
+    {
+      "id" : 12,
+      "img" : "./img/products/n5.jpg",
+      "name" : "Sky Blue Sweater Top",
+      "price": 115,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.1
+    },
+    {
+      "id" : 13,
+      "img" : "./img/products/n6.jpg",
+      "name" : "Grey Short",
+      "price": 65,
+      "star" : 3,
+      "quantity" : 1,
+      "shipping" : 0.02
+    },
+    {
+      "id" : 14,
+      "img" : "./img/products/n7.jpg",
+      "name" : "Brown T-shirt",
+      "price": 127,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.04
+    },
+    {
+      "id" : 15,
+      "img" : "./img/products/n8.jpg",
+      "name" : "Dark Grey T-shirt",
+      "price": 60,
+      "star" : 4,
+      "quantity" : 1,
+      "shipping" : 0.02
+    },
+    {
+      "id" : 16,
+      "img" : "./img/products/p1.jpg",
+      "name" : "Black Adidas Top",
+      "price": 130,
+      "star" : 6,
+      "quantity" : 1,
+      "shipping" : 0.05
+    },
+    {
+      "id" : 17,
+      "img" : "./img/products/p2.jpg",
+      "name" : "Ear-buds",
+      "price": 88,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.05
+    },
+    {
+      "id" : 18,
+      "img" : "./img/products/p3.jpg",
+      "name" : "Black Weather Jacket",
+      "price": 20,
+      "star" : 2,
+      "quantity" : 1,
+      "shipping" : 0
+    },
+    {
+      "id" : 19,
+      "img" : "./img/products/p4.jpg",
+      "name" : "Adidas Water bottle",
+      "price": 10,
+      "star" : 1,
+      "quantity" : 1,
+      "shipping" : 0
+    },
+    {
+      "id" : 20,
+      "img" : "./img/products/p5.jpg",
+      "name" : "Eye Glasses",
+      "price": 15,
+      "star" : 1,
+      "quantity" : 1,
+      "shipping" : 0
+    },
+    {
+      "id" : 21,
+      "img" : "./img/products/p6.jpg",
+      "name" : "Face Cap",
+      "price": 23,
+      "star" : 2,
+      "quantity" : 1,
+      "shipping" : 0.01
+    },
+    {
+      "id" : 22,
+      "img" : "./img/products/p7.jpg",
+      "name" : "Adidas School Bag",
+      "price": 50,
+      "star" : 3,
+      "quantity" : 1,
+      "shipping" : 0.02
+    },
+    {
+      "id" : 23,
+      "img" : "./img/products/p8.jpg",
+      "name" : "Snickers",
+      "price": 89,
+      "star" : 5,
+      "quantity" : 1,
+      "shipping" : 0.05
+    }
+  ]
+}

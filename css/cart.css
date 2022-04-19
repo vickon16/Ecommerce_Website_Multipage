@@ -1,0 +1,132 @@
+
+#sub-hero {
+  background-image: url(../img/banner/b10.jpg);
+}
+#cart {
+  overflow-x: auto;
+}
+#cart table,
+#cart-add .subtotal table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  table-layout: fixed;
+}
+#cart table img {
+  width: 70px;
+  border-radius: 5px;
+}
+#cart table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none; border-right: none;
+}
+#cart table thead td {
+  padding: 14px 0;
+  font-size: .85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#cart table tr {
+  text-align: center;
+}
+#cart table tr:not(:last-child) {
+  border-bottom: 1px solid rgba(225, 225, 225, 0.4);
+}
+#cart table tbody td {
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 8px 0;
+}
+#cart table td:nth-child(1) { /*remove*/
+  width: 60px;
+}
+#cart table td:nth-child(2) { /*image*/
+  width: 150px;
+}
+#cart table td:nth-child(3) { /*product*/
+  width: 200px;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6)
+ { /*price*/ /*quantity*/ /*subtotal*/
+  width: 100px;
+}
+#cart table td:nth-child(1) a {
+  color: rgb(242, 68, 68);
+  font-size: 1.3rem;
+  transition: .3s ease;
+}
+#cart table td:nth-child(1) a:hover {
+  color: rgb(247, 0, 0);
+  font-size: 1.6rem;
+}
+.bx.bxs-x-circle  {
+  padding: 10px;
+}
+#cart table td:nth-child(5) input {
+  width: 60px;
+  padding: 8px 4px 8px 13px;
+  outline: none;
+}
+#cart-add {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#cart-add .coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+#cart-add .coupon h3,
+#cart-add .subtotal h3 {
+  padding-bottom: 15px;
+}
+#cart-add .coupon input {
+  padding: 13px;
+  font-size: .8rem;
+  outline: none;
+  width: 60%;
+  margin-bottom: 10px;
+  border: 1px solid #e2e9e1
+}
+#cart-add .subtotal {
+  width: 50%;
+  border: 1px solid #e2e9e1;
+  border-radius: 5px;
+  padding: 30px;
+}
+#cart-add .subtotal table td {
+  width: 50%;
+  border: 1px solid #b9c0b8;
+  padding: 10px;
+  font-size: .8rem;
+}
+@media (max-width: 650px) {
+  #cart-add {
+    flex-direction: column;
+  }
+  #cart-add .coupon {
+    width: 100%;
+    text-align: center;
+  }
+  #cart-add .coupon input {
+    width: 100%;
+  }
+  #cart-add .subtotal {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .section-p1 {
+    padding: 30px 5px 10px;
+  }
+  #cart-add .subtotal {
+    padding: 10px;
+  }
+}
+
+
+
+

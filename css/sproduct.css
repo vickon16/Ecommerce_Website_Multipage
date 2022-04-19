@@ -1,0 +1,128 @@
+
+#pro-details {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+#pro-details .single-pro-img {
+  width: 40%;
+  margin-right: 20px;
+}
+#pro-details .small-img-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .2rem;
+}
+#pro-details .small-img-col {
+  /* flex-basis: 24%; */
+  width: 24%;
+  cursor: pointer;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: .4rem;
+}
+.label p {
+  width: 70%;
+  font-size: .6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.label h6 {
+  padding: 5px 3px;
+  font-size: .55rem;
+  background-color: rgb(9, 176, 176);
+  color: #fff;
+  border-radius: 2px;
+}
+#pro-details .small-img-group .img {
+  border-radius: 0px;
+}
+#pro-details .single-pro-details {
+  width: 55%;
+  padding :40px 0 0 20px;
+}
+#pro-details .single-pro-details h3 {
+  padding: 20px 0;
+  color: #222;
+  font-size: 2rem;
+}
+#pro-details .single-pro-details h2 {
+  color: var(--link);
+  padding-bottom: 10px;
+}
+#pro-details .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  outline: none;
+}
+#pro-details .single-pro-details input {
+  width: 50px;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+#pro-details .single-pro-details button.normal {
+  padding: 10px 20px;
+}
+#pro-details .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+  color: #222;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+#pro-details .single-pro-details span {
+  line-height: 25px;
+}
+
+@media (max-width: 779px) {
+  #pro-details {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  #pro-details .single-pro-img {
+    width: 100%;
+  }
+  .label p {
+    font-size: .8rem;
+  }
+  .label h6 {
+    padding: 7px 5px;
+    font-size: .75rem;
+  }
+  #pro-details .single-pro-details {
+    width: 100%;
+    padding: 0px;
+    margin-top: 50px;
+  } 
+  #pro-details .single-pro-details button.normal {
+    width: 100px;
+    padding: 8px 8px;
+  }
+}
+@media (max-width: 500px) {
+  .label p {
+    font-size: .6rem;
+  }
+  .label h6 {
+    padding: 5px 3px;
+    font-size: .55rem;
+  }
+  #pro-details .single-pro-details select {
+    padding: 5px 8px;
+  }
+  #pro-details .single-pro-details input {
+    width: 45px;
+    height: 30px;
+  }
+}
+
