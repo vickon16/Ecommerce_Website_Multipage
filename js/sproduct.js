@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function display(product, gallery) {
   const proDetails = document.getElementById("pro-details");
-  const gallery0 = await provideObject(gallery[0])
-  const gallery1 = await provideObject(gallery[1])
-  const gallery2 = await provideObject(gallery[2])
-  const gallery3 = await provideObject(gallery[3])
+  const gallery0 = await filteredProduct(gallery[0])
+  const gallery1 = await filteredProduct(gallery[1])
+  const gallery2 = await filteredProduct(gallery[2])
+  const gallery3 = await filteredProduct(gallery[3])
   
   let details = `<div class="single-pro-img">
   <img src="${product.img}" id="mainImg" class="img" alt="">

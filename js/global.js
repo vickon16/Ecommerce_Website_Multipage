@@ -11,6 +11,10 @@ if (bar) {
 if (close) {
   close.addEventListener("click", () =>nav.classList.remove("active"))
 }
+
+const item = {id: 4, img: "./img/products/f3.jpg", name: "Brown Flowered Vintage", price: 45}
+
+
 async function readyDetails() {
   const data = await (await fetch("./json/products.json")).json();
   return data.products;
@@ -20,14 +24,15 @@ async function readyGallery() {
   return data.gallery;
 }
 async function filteredProduct(src){
-  const lastText = src.slice(35, -1);
+  const lastText = src.slice(-6);
   const products = await readyDetails();
-  return products.filter(item => item.img.slice(15, -1) == lastText)[0];
+  return products.filter(item => item.img.slice(-6) == lastText)[0];
 }
 function getSingleProFromLS() {
-  const singleProItem = JSON.parse(localStorage.getItem("singleProItem"));
-  return singleProItem === null ? item : singleProItem;
+  return JSON.parse(localStorage.getItem("singleProItem"));
 }
+// localStorage.removeItem("singleProItem")
+
 function getMultipleProItems() {
   return JSON.parse(localStorage.getItem("multipleProItems") || "[]");
 }
@@ -46,13 +51,6 @@ function removeProductFromLS(id) {
   localStorage.setItem("multipleProItems", JSON.stringify(productStorage))
 }
 
-const item = {id: 4, img: "./img/products/f3.jpg", name: "Brown Flowered Vintage", price: 45}
-
-async function provideObject(item) {
-  const lastText = item.slice(15, -1);
-  const products = await readyDetails();
-  return products.filter(item => item.img.slice(15, -1) == lastText)[0];
-}
 function stars(num) {
   let star = ""
   for (let i=0; i< num-1; i++) {

@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener("DOMContentLoaded", displayProducts);
 
 async function showProSection(query, start, end) {
@@ -37,7 +35,7 @@ async function showProSection(query, start, end) {
 
 async function clickedProductBox(e) {
   const src = e.target.src;
-  const filtered = await filteredProduct(src); //filteredProduct from sproduct.js file;
+  const filtered = await filteredProduct(src);
   localStorage.setItem("singleProItem", JSON.stringify(filtered));
   window.location.href = "sproduct.html";
 }
