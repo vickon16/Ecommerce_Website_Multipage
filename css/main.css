@@ -479,13 +479,12 @@ footer .col {
 footer .col.col-1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  gap: 0 2rem;
 }
 footer .row {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
 }
 footer .logo {
   margin-bottom: 20px;
@@ -804,5 +803,5 @@ footer .copyright {
 }
   #feature .fe-box {
     width: 130px;
-}
+  }
 }
